@@ -1,0 +1,154 @@
+/* color variables */
+:root {
+  --primary-indigo-dark: #152347;
+  --light-primary-color: #b1caf8;
+  --primary-indigo: #365c9c;
+  --primary-text: #212121;
+  --secondary-text: #757575;
+  --light-text: #ffffff;
+  --acent-color: #ee070f;
+  --acent-secondary-color: #f0525e;
+  --divider-color: #f7f7f7;
+  --light-grey: #afaac3;
+}
+
+body {
+  color: var(--primary-indigo-dark);
+  margin: 0 2rem;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: 2px;
+}
+
+h4 {
+  letter-spacing: 1.75;
+}
+
+.header a {
+  text-decoration: none;
+  color: var(--primary-indigo-dark);
+}
+
+.header i {
+  height: auto;
+  width: 3rem;
+  color: var(--acent-color);
+}
+
+.name {
+  color: var(--primary-indigo-dark);
+}
+
+.hero-box {
+  background-color: var(--divider-color);
+  padding: 1rem 0;
+}
+
+/* .photo-wrapper {
+  height: 30rem;
+  width: auto;
+} */
+
+.hero-heading {
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--acent-color);
+}
+
+.portfolio-picture {
+  height: auto;
+  margin: 1rem;
+  width: 90%;
+  border-radius: 5px;
+  box-shadow: 0 0.7rem 2rem #2121219a;
+}
+
+.specilized-section {
+  background-image: linear-gradient(to bottom, #ffffff 50%, #ee070f 50%);
+  padding: 0 4rem;
+  padding-bottom: 2rem;
+  position: relative;
+}
+
+.specilized-section i {
+  color: #ee070f70;
+}
+
+.specilized-section ul {
+  list-style: none;
+}
+
+.secondary-heading {
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+
+.specialized-heading__secondary {
+  margin-bottom: 2.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.card {
+  box-shadow: 0.5rem 0.5rem 1rem #2121219a;
+}
+
+.card i {
+  color: var(--acent-secondary-color);
+  margin: 1.5rem 0;
+}
+
+.icon-one {
+  position: absolute;
+  left: 13rem;
+  top: 5rem;
+}
+
+.icon-two {
+  position: absolute;
+  left: 40rem;
+  top: 2rem;
+}
+
+.icon-three {
+  position: absolute;
+  left: 60rem;
+  top: 5rem;
+  z-index: 0;
+}
+
+.icon-four {
+  position: absolute;
+  left: 78rem;
+  top: 3rem;
+}
+
+.icon-five {
+  position: absolute;
+  left: 98rem;
+  top: 3rem;
+}
+
+.card h4 {
+  margin-bottom: 2rem;
+}
+
+.card-p-color-change {
+  color: var(--acent-secondary-color);
+  font-size: 1.4rem;
+}
+
+.card-skill-list {
+  margin-bottom: 2rem;
+}
+
+.card ul {
+  margin-bottom: 1.5rem;
+}
+
+.card-li {
+  margin: 0.65rem 0;
+}
