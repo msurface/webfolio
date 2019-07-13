@@ -27,6 +27,12 @@ h4 {
   letter-spacing: 1.75;
 }
 
+.hero-text {
+  line-height: 190%;
+  letter-spacing: 1px;
+  word-spacing: 1.3px;
+}
+
 .header a {
   text-decoration: none;
   color: var(--primary-indigo-dark);
@@ -71,6 +77,7 @@ h4 {
   padding: 0 4rem;
   padding-bottom: 2rem;
   position: relative;
+  margin-top: 7rem;
 }
 
 .specilized-section i {
@@ -84,12 +91,16 @@ h4 {
 .secondary-heading {
   margin-bottom: 1rem;
   margin-top: 3rem;
+  font-size: 280%;
+  font-weight: 600;
 }
 
 .specialized-heading__secondary {
   margin-bottom: 2.5rem;
   position: relative;
   z-index: 1;
+  letter-spacing: 1.2px;
+  font-weight: 500;
 }
 
 .card {
@@ -104,13 +115,13 @@ h4 {
 .icon-one {
   position: absolute;
   left: 13rem;
-  top: 5rem;
+  top: 6rem;
 }
 
 .icon-two {
   position: absolute;
   left: 40rem;
-  top: 2rem;
+  top: -3rem;
 }
 
 .icon-three {
@@ -123,7 +134,7 @@ h4 {
 .icon-four {
   position: absolute;
   left: 78rem;
-  top: 3rem;
+  top: -4rem;
 }
 
 .icon-five {
@@ -151,4 +162,17 @@ h4 {
 
 .card-li {
   margin: 0.65rem 0;
+}
+
+.portfolio-section {
+  margin-top: 7rem;
+}
+
+.project-card {
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-tech {
+  font-size: 80%;
 }
