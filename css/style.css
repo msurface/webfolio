@@ -176,3 +176,34 @@ h4 {
 .project-tech {
   font-size: 80%;
 }
+
+.skill-set-section {
+  background-color: var(--divider-color);
+}
+
+.skill-set-section h2 {
+  margin-top: 7rem;
+}
+
+.skill-headings {
+  margin-bottom: 5rem;
+}
+.progress {
+  margin: 1.5rem 0;
+}
+
+.skill-text {
+  margin-left: 1.5rem;
+}
+
+.bar-wrapper {
+  background-color: var(--light-text);
+  padding: 1rem 2.5rem;
+  margin: 1rem;
+  border-radius: 10px;
+  box-shadow: 0.5rem 0.5rem 1rem #2121219a;
+}
+
+.progress-bar {
+  background: green;
+}
