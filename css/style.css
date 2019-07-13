@@ -206,8 +206,96 @@ h4 {
   box-shadow: 0.5rem 0.5rem 1rem #2121219a;
 }
 
+/* Skill Sets progress bars & Icons */
+
 .progress-bar {
   background: green;
+}
+
+.skill-text {
+  color: var(--primary-text);
+}
+
+/* icons in progress bars */
+
+.fa-js-square {
+  color: rgb(240, 240, 47);
+}
+
+.progress-bar-js {
+  background: rgb(240, 240, 47);
+}
+
+.fa-css3-alt {
+  color: rgb(120, 199, 248);
+}
+
+.progress-bar-css {
+  background: rgb(120, 199, 248);
+}
+
+.fa-bootstrap {
+  color: #7a43b6;
+}
+
+.progress-bar-bootstrap {
+  background: #7a43b6;
+}
+
+.fa-sass {
+  color: #f15394;
+}
+
+.progress-bar-sass {
+  background: #f15394;
+}
+
+.fa-github {
+  color: #6cc644;
+}
+
+.progress-bar-github {
+  background: #6cc644;
+}
+
+.fa-project-diagram {
+  color: #5038b9;
+}
+
+.project-bar-sp {
+  background: #5038b9;
+}
+
+.fa-react {
+  color: #00d8ff;
+}
+
+.progress-bar-react {
+  background: #00d8ff;
+}
+
+.mySql-icon {
+  color: #f29111;
+}
+
+.progress-bar-mySql {
+  background: #f29111;
+}
+
+.mongodb-icon {
+  color: #589636;
+}
+
+.progress-bar-mongodb {
+  background: #589636;
+}
+
+.fa-node {
+  color: #6cc24a;
+}
+
+.progress-bar-node {
+  background: #6cc24a;
 }
 
 .express-icon {
@@ -218,6 +306,14 @@ h4 {
 .contact-photo {
   width: 30rem;
   height: auto;
+}
+
+.fa-desktop {
+  color: rgb(67, 67, 238);
+}
+
+.progress-bar-demo {
+  background: rgb(67, 67, 238);
 }
 
 .contact-info-section {
