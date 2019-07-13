@@ -101,6 +101,7 @@ h4 {
   z-index: 1;
   letter-spacing: 1.2px;
   font-weight: 500;
+  color: var(--secondary-text);
 }
 
 .card {
@@ -179,6 +180,7 @@ h4 {
 
 .skill-set-section {
   background-color: var(--divider-color);
+  padding-bottom: 4rem;
 }
 
 .skill-set-section h2 {
@@ -206,4 +208,27 @@ h4 {
 
 .progress-bar {
   background: green;
+}
+
+.express-icon {
+  height: 2em;
+  width: auto;
+}
+
+.contact-photo {
+  width: 30rem;
+  height: auto;
+}
+
+.contact-info-section {
+  margin-bottom: 3rem;
+}
+
+.contact-info-section h2 {
+}
+
+.footer-section {
+  background-color: var(--acent-color);
+  padding: 2rem 0;
+  color: var(--light-text);
 }
