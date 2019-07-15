@@ -14,6 +14,9 @@
 
 body {
   color: var(--primary-indigo-dark);
+}
+
+main {
   margin: 0 2rem;
 }
 
@@ -323,8 +326,41 @@ h4 {
 .contact-info-section h2 {
 }
 
+.contact-card-info p {
+  margin-bottom: 0;
+}
+
+.contact-card-heading {
+  margin-bottom: 1.5rem;
+}
+
+.email i {
+  margin-right: 0.7rem;
+}
+
+.linkedin i {
+  margin-right: 0.7rem;
+}
+
+.linkedin a {
+  text-decoration: none;
+  color: var(--primary-indigo-dark);
+}
+
+.github-contact i {
+  margin-right: 0.7rem;
+}
+
+.github-contact a {
+  text-decoration: none;
+  color: var(--primary-indigo-dark);
+}
+
+.phone-number i {
+  margin-right: 0.7rem;
+}
+
 .footer-section {
-  background-color: var(--acent-color);
-  padding: 2rem 0;
-  color: var(--light-text);
+  background-color: var(--acent-secondary-color);
+  padding: 1rem 0;
 }
