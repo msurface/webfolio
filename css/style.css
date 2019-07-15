@@ -36,9 +36,26 @@ h4 {
   word-spacing: 1.3px;
 }
 
-.header a {
+.header a:link,
+.header a:visited {
   text-decoration: none;
   color: var(--primary-indigo-dark);
+}
+
+.header a:hover {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: var(--light-text);
+  background-color: var(--acent-color);
+  box-shadow: 0 1rem 1.5rem #2121219a;
+}
+
+.header a:active {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: var(--light-text);
+  background-color: var(--acent-color);
+  box-shadow: 0 0.5rem 0.5rem #2121219a;
 }
 
 .header i {
