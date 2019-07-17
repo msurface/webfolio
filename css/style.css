@@ -12,8 +12,12 @@
   --light-grey: #afaac3;
 }
 
+html {
+}
+
 body {
   color: var(--primary-indigo-dark);
+  box-sizing: border-box;
 }
 
 main {
@@ -380,4 +384,39 @@ h4 {
 .footer-section {
   background-color: var(--acent-secondary-color);
   padding: 1rem 0;
+}
+
+/* MEDIA QUERIES */
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .specilized-section i {
+    color: black;
+  }
+}
+/* 
+// Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .specilized-section i {
+    color: green;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .specilized-section i {
+    color: blue;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .specilized-section i {
+    color: yellow;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  ...;
 }
