@@ -96,7 +96,7 @@ h4 {
   box-shadow: 0 0.7rem 2rem #2121219a;
 }
 
-.specilized-section {
+.specialized-section {
   background-image: linear-gradient(to bottom, #ffffff 50%, #ee070f 50%);
   padding: 0 4rem;
   padding-bottom: 2rem;
@@ -104,11 +104,11 @@ h4 {
   margin-top: 7rem;
 }
 
-.specilized-section i {
+.specialized-section i {
   color: #ee070f70;
 }
 
-.specilized-section ul {
+.specialized-section ul {
   list-style: none;
 }
 
@@ -390,30 +390,150 @@ h4 {
 /* // Extra small devices (portrait phones, less than 576px) */
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  .specilized-section i {
-    color: black;
+  .icon-one {
+    top: 0;
+    left: 0;
+    visibility: hidden;
+  }
+
+  .icon-two {
+    top: 12rem;
+    left: 2rem;
+    z-index: 0;
+  }
+
+  .icon-three {
+    left: 7rem;
+    top: 3rem;
+  }
+
+  .icon-four {
+    left: 25rem;
+    top: 9rem;
+  }
+
+  .icon-five {
+    left: 20rem;
+    top: -1.5rem;
+  }
+
+  .icon-six {
+    position: absolute;
+    top: -5rem;
+    left: 0;
+    z-index: 0;
   }
 }
 /* 
 // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .specilized-section i {
-    color: green;
+  .icon-one {
+    top: 0;
+    left: 0;
+    visibility: hidden;
+  }
+
+  .icon-two {
+    top: 12rem;
+    left: 2rem;
+    z-index: 0;
+  }
+
+  .icon-three {
+    left: 7rem;
+    top: 3rem;
+  }
+
+  .icon-four {
+    left: 25rem;
+    top: 9rem;
+  }
+
+  .icon-five {
+    left: 20rem;
+    top: -3.5rem;
+  }
+
+  .icon-six {
+    position: absolute;
+    top: -5rem;
+    left: 0;
+    z-index: 0;
   }
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .specilized-section i {
-    color: blue;
+  .icon-one {
+    top: 8rem;
+    left: 0;
+  }
+
+  .icon-two {
+    top: 2.3;
+    left: 13rem;
+    z-index: 0;
+  }
+
+  .icon-three {
+    left: 30rem;
+    top: 6rem;
+  }
+
+  .icon-four {
+    left: 43rem;
+    top: 12rem;
+  }
+
+  .icon-five {
+    left: 35rem;
+    top: -3.5rem;
+  }
+
+  .icon-six {
+    position: absolute;
+    top: -5rem;
+    left: 0;
+    z-index: 0;
   }
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  .specilized-section i {
-    color: yellow;
+
+  .icon-one {
+    top: 7rem;
+    left: 3rem;
   }
+
+  .icon-two {
+    top: 1rem;
+    left: 18rem;
+    z-index: 0;
+  }
+
+  .icon-three {
+    left: 36rem;
+    top: 6rem;
+  }
+
+  .icon-four {
+    left: 55rem;
+    top: 4rem;
+  }
+
+  .icon-five {
+    left: 41rem;
+    top: -4.5rem;
+  }
+
+  .icon-six {
+    position: absolute;
+    top: -5rem;
+    left: 0;
+    z-index: 0;
+  }
+}
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
