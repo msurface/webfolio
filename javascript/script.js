@@ -11,7 +11,7 @@ const contactCardId = document.getElementById('contact-card-id');
 
 // listening for the window to be resized.
 // basically setting up media queries to remove and add bootstrap classes
-window.addEventListener('resize', function() {
+window.addEventListener('load', function() {
   let windowSize = document.documentElement.clientWidth;
   // console.log(windowSize);
   if (windowSize <= 575.98) {

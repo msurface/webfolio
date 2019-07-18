@@ -430,6 +430,7 @@ h4 {
     height: auto;
     box-shadow: 0.5rem 0.5rem 1rem #2121219a;
   }
+
 }
 /* 
 // Small devices (landscape phones, 576px and up) */
@@ -509,6 +510,15 @@ h4 {
     top: -5rem;
     left: 0;
     z-index: 0;
+  }
+  .contact-photo {
+    width: 25rem;
+    height: auto;
+    box-shadow: 0.5rem 0.5rem 1rem #2121219a;
+  }
+
+  .project-card {
+
   }
 }
 
