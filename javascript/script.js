@@ -1,5 +1,3 @@
-console.log('javascript fires on load');
-
 // Grabbing DOM elements in the header
 const headerIcon = document.getElementById('header-icon');
 const headerName = document.getElementById('header-name');
@@ -29,8 +27,6 @@ window.addEventListener('load', function() {
     // margin on the contact info card bottom
     contactCardId.classList.add('mb-5');
 
-    this.console.log('javascript firing media query 1');
-
     // console.log('Less than 575.98px');
   } else if (windowSize >= 576 && windowSize <= 767.98) {
     // removing margin left from headerIcon
@@ -42,7 +38,6 @@ window.addEventListener('load', function() {
     // console.log(headerUl);
     headerUl.classList.remove('mr-5');
     headerUl.classList.add('mr-0');
-    this.console.log('javascript firing media query 2');
 
     // logging the screen size were in
     console.log('equal to 576 less than = to 767.98');
