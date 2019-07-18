@@ -390,6 +390,7 @@ h4 {
 /* // Extra small devices (portrait phones, less than 576px) */
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+
   .icon-one {
     top: 0;
     left: 0;
@@ -408,13 +409,13 @@ h4 {
   }
 
   .icon-four {
-    left: 25rem;
-    top: 9rem;
+    left: 19rem;
+    top: 12rem;
   }
 
   .icon-five {
-    left: 20rem;
-    top: -1.5rem;
+    left: 13rem;
+    top: -4.5rem;
   }
 
   .icon-six {
@@ -423,10 +424,17 @@ h4 {
     left: 0;
     z-index: 0;
   }
+
+  .contact-photo {
+    width: 24rem;
+    height: auto;
+    box-shadow: 0.5rem 0.5rem 1rem #2121219a;
+  }
 }
 /* 
 // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+
   .icon-one {
     top: 0;
     left: 0;
@@ -459,6 +467,12 @@ h4 {
     top: -5rem;
     left: 0;
     z-index: 0;
+  }
+
+  .contact-photo {
+    width: 24rem;
+    height: auto;
+    box-shadow: 0.5rem 0.5rem 1rem #2121219a;
   }
 }
 
