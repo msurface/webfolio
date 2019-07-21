@@ -27,7 +27,7 @@ window.addEventListener('load', function() {
     // margin on the contact info card bottom
     contactCardId.classList.add('mb-5');
 
-    // console.log('Less than 575.98px');
+    console.log('Less than 575.98px');
   } else if (windowSize >= 576 && windowSize <= 767.98) {
     // removing margin left from headerIcon
     // console.log(headerLeftSpan);
