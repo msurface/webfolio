@@ -9,9 +9,7 @@ const headerLeftSpan = document.getElementById('header-left-span');
 // DOM elements in contact card
 const contactCardId = document.getElementById('contact-card-id');
 
-// listening for the window to be resized.
-// basically setting up media queries to remove and add bootstrap classes
-window.addEventListener('load', function() {
+function removeClasses() {
   let windowSize = document.documentElement.clientWidth;
   // console.log(windowSize);
   if (windowSize <= 575.98) {
@@ -56,4 +54,9 @@ window.addEventListener('load', function() {
   } else if (windowSize >= 992 && windowSize <= 1199.98) {
     console.log('equal to 992 and less than equal to 1199.98');
   }
-});
+}
+
+// listening for the window to be resized.
+// basically setting up media queries to remove and add bootstrap classes
+window.addEventListener('load', removeClasses);
+window.addEventListener('resize', removeClasses);
