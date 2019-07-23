@@ -11,6 +11,8 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Signika&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sanchez&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b243f0245e.js"></script>
     <script defer src="javascript/script.js"></script>
     <title>Michael Surface's Webfolio</title>
@@ -26,16 +28,16 @@
 
         <ul class="nav justify-content-end mr-5" id="header-ul">
           <li class="nav-item">
-            <a class="nav-link active" href="#">About</a>
+            <a class="nav-link active" href="#specialized">Specialized In</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="#">Resume</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Lets Chat</a>
+            <a class="nav-link" href="#contact-info">Lets Chat</a>
           </li>
         </ul>
       </nav>
@@ -46,7 +48,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-6 col-lg-6 col-xl-6">
-                <h1 class="hero-heading">
+                <h1 class="hero-heading" id="about-me">
                   Client-facing development professional
                 </h1>
                 <p class="hero-text">
@@ -79,7 +81,7 @@
         </div>
         <div class="row">
           <div class="col-12 .col-sm-12 .col-md-12 .col-lg-12 .col-xl-12">
-            <h2 class="secondary-heading text-center">
+            <h2 class="secondary-heading text-center" id="specialized">
               Specialized In
             </h2>
             <div class="row">
@@ -92,31 +94,35 @@
           </div>
         </div>
         <div class="row">
-          <div class="col col-sm-4 col-md-4 col-lg-4 col-xl-4">
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 margin-spacer">
             <div class="card text-center">
                 <i class="fas fa-phone-volume fa-4x"></i>
                 <h4 class="card-heading">Client-facing</h4>
                 <p class="card-p-color-change">Skills: </p>
-                <p class="card-skill-list">SKill 1, skill 2, skill 3, skill 4</p>
+                <p class="card-skill-list">Sales, Demoing Software, Sales Process, <br> Customer Service </p>
                 <p class="card-p-color-change">Tools: </p>
                 <ul class="list-group list-group-flush">
-                    <li class="card-li">Cras justo odio</li>
-                    <li class="card-li">Dapibus ac facilisis in</li>
-                    <li class="card-li">Vestibulum at eros</li>
+                    <li class="card-li">Cold Calling</li>
+                    <li class="card-li">In Person & Virtural Demos</li>
+                    <li class="card-li">Salesforce</li>
+                    <li class="card-li">Sandler Training</li>
+                    <li class="card-li"></li>
                   </ul>
             </div>
           </div>
-          <div class= "col col-sm-4 col-md-4 col-lg-4 col-xl-4">
+          <div class= "col-sm-4 col-md-4 col-lg-4 col-xl-4 margin-spacer">
               <div class="card text-center">
                   <i class="fas fa-laptop-code fa-4x"></i>
                   <h4 class="card-heading">Front-end Development</h4>
                   <p class="card-p-color-change">Skills: </p>
-                  <p class="card-skill-list">SKill 1, skill 2, skill 3, skill 4</p>
+                  <p class="card-skill-list">Develop responsive web applications that integrate with backend components</p>
                   <p class="card-p-color-change">Tools: </p>
                   <ul class="list-group list-group-flush">
-                      <li class="card-li">Cras justo odio</li>
-                      <li class="card-li">Dapibus ac facilisis in</li>
-                      <li class="card-li">Vestibulum at eros</li>
+                      <li class="card-li">HTML, CSS, Bootstrap</li>
+                      <li class="card-li">Sass</li>
+                      <li class="card-li">React</li>
+                      <li class="card-li">jQuery</li>
+                      <li class="card-li"> </li>
                     </ul>
               </div>
           </div>
@@ -125,12 +131,14 @@
                   <i class="fas fa-database fa-4x"></i>
                   <h4 class="card-heading">Back-end Development</h4>
                   <p class="card-p-color-change">Skills: </p>
-                  <p class="card-skill-list">SKill 1, skill 2, skill 3, skill 4</p>
+                  <p class="card-skill-list">Create APIs utilizing the MERN stack and other technologies</p>
                   <p class="card-p-color-change">Tools: </p>
                   <ul class="list-group list-group-flush">
-                      <li class="card-li">Cras justo odio</li>
-                      <li class="card-li">Dapibus ac facilisis in</li>
-                      <li class="card-li">Vestibulum at eros</li>
+                      <li class="card-li">Node.js</li>
+                      <li class="card-li">MongoDB & MySQL</li>
+                      <li class="card-li">Express</li>
+                      <li class="card-li">Postman</li>
+                      <li class="card-li"> </li>
                     </ul>
               </div>
           </div>
@@ -140,8 +148,8 @@
       <section class="portfolio-section">
         <div class="row">
             <div class="col-12 .col-sm-12 .col-md-12 .col-lg-12 .col-xl-12">
-                <h2 class="secondary-heading text-center">
-                  Portfolio
+                <h2 class="secondary-heading text-center" id="portfolio">
+                  Projects Portfolio
                 </h2>
                 <div class="row">
                   <div class="col-12 .col-sm-12 .col-md-12 .col-lg-12 .col-xl-12">
@@ -197,7 +205,7 @@
                 <div class="card  project-card">
                   <img class="card-img-top" src="./images/project-photos/beach.jpg" alt="Card image cap">
                   <div class="card-body">
-                    <p class="card-text">Travel Hangman Game<span class="project-tech float-right">HTML,CSS, Vanilla JS</span></p>
+                    <p class="card-text">Travel Hangman<span class="project-tech float-right">HTML,CSS, Vanilla JS</span></p>
                   </div>
                 </div>
               </a>
@@ -426,12 +434,12 @@
           <div class="skill-headings">
               <div class="row">
                 <div class="col-12 .col-sm-12 .col-md-12 .col-lg-12 .col-xl-12">
-                  <h2 class="secondary-heading text-center">
+                  <h2 class="secondary-heading text-center" id="contact-info">
                     Don't be a stranger
                   </h2>
                   <div class="row">
                     <div class="col-12 .col-sm-12 .col-md-12 .col-lg-12 .col-xl-12">
-                      <p class="specialized-heading__secondary text-center">
+                      <p class="specialized-heading__secondary text-center" \>
                         Let's chat about software, new technology, and pizza.
                       </p>
                     </div>
@@ -456,13 +464,13 @@
                   </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-6 text-center">
-                  <img src="./images/project-photos/seemi-samuel-4qJdtfJ2MmQ-unsplash.jpg" alt="" class="contact-photo">
+                  <img src="./images/about-me/elephant-hug.JPG" alt="" class="contact-photo">
                 </div>
               </div>
             </div>
       </section>
 
-    </main>
+    
     <section class="footer-section">
         <div class="row">
           <div class="col-md-4 col-lg-4 col-xl-4 text-center mb-3">
@@ -476,7 +484,7 @@
           </div>
         </div>
       </section>
-
+    </main>
   </body>
 
 </html>
