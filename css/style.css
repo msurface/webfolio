@@ -350,8 +350,9 @@ a:hover {
 }
 
 .contact-photo {
-  width: 30rem;
+  width: 100%;
   height: auto;
+  box-shadow: 0.5rem 0.5rem 1rem #2121219a;
 }
 
 .fa-desktop {
@@ -449,7 +450,6 @@ a:hover {
   .contact-photo {
     width: 24rem;
     height: auto;
-    box-shadow: 0.5rem 0.5rem 1rem #2121219a;
   }
 
   .margin-spacer {
@@ -493,11 +493,11 @@ a:hover {
     z-index: 0;
   }
 
-  .contact-photo {
+  /* .contact-photo {
     width: 24rem;
     height: auto;
     box-shadow: 0.5rem 0.5rem 1rem #2121219a;
-  }
+  } */
 }
 
 /* // Medium devices (tablets, 768px and up) */
